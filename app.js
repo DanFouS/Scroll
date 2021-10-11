@@ -13,6 +13,11 @@ navToggle.addEventListener("click", function () {
   //   console.log(containerHeight);
   const linksHeight = links.getBoundingClientRect().height;
   //   console.log(linksheight);
+  if ((containerHeight = 0)) {
+    linksContainer.style.height = `${linksHeight}px`;
+  } else {
+    linksContainer.style.height = 0;
+  }
 });
 
 // Fixed Navbar
