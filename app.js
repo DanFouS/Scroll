@@ -41,6 +41,16 @@ window.addEventListener("scroll", function () {
   }
 });
 
-// Smooth scroll
+// ***** Smooth scroll ***** \\
 
 // Select links
+
+const scrollLinks = document.querySelectorAll(".scroll-link");
+
+scrollLinks.forEach(function (link) {
+  link.addEventListener("click", () => {
+    // prevent default
+
+    e.preventDefault();
+  });
+});
