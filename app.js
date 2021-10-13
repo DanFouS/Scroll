@@ -39,7 +39,7 @@ window.addEventListener("scroll", function () {
   }
 });
 
-// ***** Smooth scroll ***** \\
+***** Smooth scroll ***** \\
 
 // select links
 
