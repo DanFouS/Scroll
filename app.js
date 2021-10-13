@@ -41,7 +41,7 @@ window.addEventListener("scroll", function () {
 
 // ***** Smooth scroll ***** \\
 
-select links
+// select links
 
 const scrollLinks = document.querySelectorAll(".scroll-link");
 scrollLinks.forEach((link) => {
