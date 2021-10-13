@@ -47,7 +47,7 @@ const scrollLinks = document.querySelectorAll(".scroll-link");
 scrollLinks.forEach((link) => {
   link.addEventListener("click", (e) => {
     // prevent default
-
+    console.log(e);
     e.preventDefault();
 
     // navigate to specific spot
